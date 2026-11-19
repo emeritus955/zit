@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 40px 15px;
+    background-color: #bcd7ec;
+    color: #222222;
+}
+
+.obalka{
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ffffffa9;
+    border: 2px solid #000000;
+}
+
+nav{
+    display: flex;
+    border-bottom: 2px solid #000000;
+}
+
+nav a{
+    padding: 12px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #616161;
+    border-right: 2px solid #000000;
+}
+
+nav a:hover{
+    background-color: #ffffffa9;
+    color: #000000;
+}
+
+nav a.aktivni{
+    background-color: #ffffffa9;
+    color: #000000;
+}
+
+.obsah{
+    padding: 30px;
+    min-height: 300px;
+}
+
+.obsah h1{
+    margin-top: 0;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+}
+
+#pocasi{
+    height: 45px;
+}
+
+@media (max-width: 600px){
+    body{
+        padding: 20px 10px;
+    }
+
+    nav a{
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+    .obsah{
+        padding: 20px;
+    }
+}

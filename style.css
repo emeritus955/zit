@@ -53,7 +53,7 @@ nav a.aktivni{
 }
 
 #pocasi{
-    height: 45px;
+    min-height: 45px;
 }
 
 @media (max-width: 600px){
